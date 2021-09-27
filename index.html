@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #db7093;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: # #db7093;
+  padding-left: 20px;
+}
+
+/* Image */
+.image {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<title>McCall Butler Portfolio</title>
+<body>
+
+<div class="header">
+  <h1>McCall Butler</h1>
+  <p>Makeup Artist</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About Me</a>
+  <a href="#">Photo Gallery</a>
+  <a href="#" style="float:right">CONTACT ME</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Interests</h2>
+      <h5>September 25, 2020</h5>
+      <div class="image"> <img src="https://www.tripsavvy.com/thmb/CHEwgx22OO8pCjfMQymOLa1DSkI=/2140x1204/smart/filters:no_upscale()/salt-lake-city-with-snow-capped-mountain-1016382294-adbc77ea68214f9b8cb9462117a13d1c.jpg" style="height:200px;">Salt Lake City, UT
+      </div>
+      <p><b>More than meets the eye...</b></p>
+      <p> I am originally from Houston,TX and am currently in SLC,UT.Aside from being a makeup artist, I have many hobbies, talents and am always evolving. I went to school and graduated with a B.S in Engineering of Design and drafting technology(CAD design) as well as Tech Management. I am currently the manager of a fast paced and top of the line Medical Spa. I love traveling,hiking,art and being in the sunshine. I am currently enrolled in Coding Temple and am on track to a new coding career and couldn't be more excited! </p>
+    </div>
+    <div class="card">
+      <h2>Travel</h2>
+      <h5><i>Work meets passion</i></h5>
+      <div class="image"> 
+      <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Femilysiegel%2Ffiles%2F2018%2F01%2FCabo-San-Lucas-1200x675.jpg" style="height:200px;">Cabo,Mexico</div>
+      <p><b>If you could travel and work, would you?</b></p>
+      <p>One of my many passions is traveling! I hope to one day have a remote job in coding that would allow me to travel. My favorite place I have been is Mexico and I hope to travel to Greece one day.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="image">
+       <img src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/44317216_10212740464289101_7330005570646179840_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=rf7dA4Lz-GEAX-5rgvR&tn=P6ozNvmHI03UKTxS&_nc_ht=scontent-den4-1.xx&oh=3b1478d6ac5336ae1e11bc5a8a8f7996&oe=6177D085"style="width:130px;height:140px;">
+      	</div>
+      <p>I am a published professional makeup artist from Houston Texas and have been practicing for 8 years. I specalize in special FX makeup and love to create different and innovative looks.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Posts</h3>
+      <div class="image"><p>Pixelated</p>
+      	<img src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/119597418_10217756430605124_6490866853387485436_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=b9115d&_nc_ohc=7k_E9Lk0cVIAX-lmr_d&_nc_ht=scontent-den4-1.xx&oh=8581e0f1575ca4f8b263239e4041830e&oe=61777386"style="width:130px;height:135px;"></div>
+      <div class="image"><p>Split Face</p>
+      <img src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/119453863_10217756429925107_5460165327666285133_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=b9115d&_nc_ohc=bmcVtwzLz98AX8VpBd6&_nc_ht=scontent-den4-1.xx&oh=580976ecd6b84f6936720d1efec71e7c&oe=6178E4D9"style="width:130px;height:135px;"></div>
+     
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p> <ul>
+      <li><a href="https://www.facebook.com/mccall.butler1">Facebook</a></li>
+      <li><a href="https://www.instagram.com/mickeybeemakeup/">Makeup Portfolio</a></li>
+      <li><a href="https://www.instagram.com/mickeybee23/">Instagram</a></li>
+    </ul></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thank you for stopping by! xoxo</h2>
+</div>
+
+</body>
+</html>
